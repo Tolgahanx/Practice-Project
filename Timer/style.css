@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("background.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    height: 25%;
+    border-radius: 15px;
+}
+.buttons {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+}
+.fa-play {
+    background-color: green;
+}
+.fa-rotate-left {
+    background-color: red;
+}
+
+.timer {
+    font-size: 3rem;
+}
+
+.orange {
+    background-color: orange;
+    color: #fff;
+}

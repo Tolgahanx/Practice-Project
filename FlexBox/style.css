@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    border: 2px solid blue;
+    width: 1600px;
+    height: 800px;
+
+    display: flex;
+    
+
+}
+
+.kutu {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.kutu1 {
+    flex: 1
+}
+.kutu2 {
+    flex:1
+}
+.kutu3 {
+    flex: 1
+}
